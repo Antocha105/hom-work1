@@ -1,0 +1,21 @@
+h1 {
+    text-transform: uppercase;
+    text-align:center
+}
+.text1 {
+    color: brown;
+    border: 8px solid #e70c0c;
+    width: 500px;
+    height: 500px;
+    box-sizing: coborder-box;
+    text-justify: auto;
+    padding: 25px 25px 25px 25px;
+}
+
+.what{
+    color: blueviolet;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
