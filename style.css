@@ -1,3 +1,12 @@
+body {
+    border: 8px solid #0c10e7;
+    width: 345px;
+    height: 146px;
+    box-sizing: coborder-box;
+    padding: 25px 25px 25px 25px;
+}
+
+
 h1 {
     text-transform: uppercase;
     text-align:center
@@ -5,17 +14,56 @@ h1 {
 .text1 {
     color: brown;
     border: 8px solid #e70c0c;
-    width: 500px;
-    height: 500px;
+    width: 1700px;
+    height: 200px;
     box-sizing: coborder-box;
     text-justify: auto;
     padding: 25px 25px 25px 25px;
+    font-size: 18px;
 }
 
 .what{
     color: blueviolet;
     line-height: 50px;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 900;
 
+}
+.img1{
+    display: block;
+    margin: 0 auto;
+    border: 8px solid #0c10e7;
+    width: 299px;
+    height: 168px;
+    box-sizing: coborder-box;
+    padding: 25px 25px 25px 25px;
+}
+
+
+.img2{
+    display: block;
+    margin: 0 auto;
+    border: 8px solid #0c10e7;
+    width: 345px;
+    height: 146px;
+    box-sizing: coborder-box;
+    padding: 25px 25px 25px 25px;
+
+}
+
+.text2{
+    color: rgb(0, 0, 0);
+    border: 8px solid #e70c0c;
+    width: 200px;
+    height: 300px;
+    box-sizing: coborder-box;  
+ }
+ .text3{
+    color: rgb(0, 0, 0);
+    border: 8px solid #e70c0c;
+    width: 400px;
+    height: 600px;
+    box-sizing: coborder-box;  
+font-size: 25px;
+padding: 15px 15px 15px 15px;
 }
