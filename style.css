@@ -1,83 +1,33 @@
-
-h1 {
-    text-transform: uppercase;
-    text-align:center
-}
-.text1 {
-    color: brown;
-    border: 8px solid #e70c0c;
-    width: 1700px;
-    height: 200px;
-    box-sizing: coborder-box;
-    text-justify: auto;
-    padding: 25px 25px 25px 25px;
-    font-size: 18px;
-}
-
-.what{
-    color: blueviolet;
-    line-height: 50px;
-    font-size: 30px;
-    font-weight: 900;
+.link-list li {
+    display: inline-block;
+    margin-top: 30px;
 
 }
-.img1{
-    display: block;
-    margin: 0 auto;
-    border: 8px solid #0c10e7;
-    width: 299px;
-    height: 168px;
-    box-sizing: coborder-box;
-    padding: 25px 25px 25px 25px;
+.page-link{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: black;
+}
+.page-link:hover{
+    background-color: dodgerblue;
+    color: blue;
+
+}
+.page-link:focus{
+    border: 5px solid black;
+}
+.page-link:active{
+    background-color: brown;
+    color:red;
+
+}
+input:hover{
+    background-color: aquamarine;
 }
 
 
-.img2{
-    display: block;
-    margin: 0 auto;
-    border: 8px solid #0c10e7;
-    width: 345px;
-    height: 146px;
-    box-sizing: coborder-box;
-    padding: 25px 25px 25px 25px;
-
-}
-
-.text2{
-    color: rgb(0, 0, 0);
-    border: 8px solid #e70c0c;
-    width: 200px;
-    height: 300px;
-    box-sizing: coborder-box;  
- }
- .text3{
-    color: rgb(0, 0, 0);
-    border: 8px solid #e70c0c;
-    width: 400px;
-    height: 600px;
-     
-font-size: 25px;
-padding: 15px 15px 15px 15px;
-}
-
-
-
-
-
-table {
-    border: 4px solid black;
-    border-collapse: collapse;
-}
-th,td {
-    border: 2px solid black;
-
-    
-
-}
-caption {
-    color: #e70c0c;
-    font-weight: bold;
-}
-.text-centr{
-    text-align: center;
+li:nth-child(2n+2){
+    color: darkgoldenrod;
+    background-color: brown;
 }
