@@ -1,33 +1,50 @@
-.link-list li {
-    display: inline-block;
-    margin-top: 30px;
+.conteiner{
+    background-color: lime;
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper{
+    background-color: blue;
+    width: 80%;
+    height: 800px;
+}
+.inner{
+    text-align: center;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: forestgreen;
+    border: 1px solid black;
+}
+
+.div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
 
 }
-.page-link{
-    text-decoration: none;
-    padding: 10px;
+ .div2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: bisque;
+
+
+ }
+
+ .div3 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: blueviolet;
-    color: black;
-}
-.page-link:hover{
-    background-color: dodgerblue;
-    color: blue;
 
-}
-.page-link:focus{
-    border: 5px solid black;
-}
-.page-link:active{
+ }
+ .div4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
     background-color: brown;
-    color:red;
 
-}
-input:hover{
-    background-color: aquamarine;
-}
-
-
-li:nth-child(2n+2){
-    color: darkgoldenrod;
-    background-color: brown;
-}
+ }
